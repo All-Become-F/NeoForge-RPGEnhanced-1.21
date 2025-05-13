@@ -1,5 +1,6 @@
 {
-  "itemGroup.rpgenhanced": "Example Mod Tab",
-  "block.rpgenhanced.example_block": "Example Block",
-  "item.rpgenhanced.example_item": "Example Item"
+  "item.rpgenhanced.golem_core": "Golem Core",
+  "item.rpgenhanced.golem_core.desc": "A core salvaged from an Iron Golem.",
+  "enchantment.rpgenhanced.hearty": "Hearty",
+  "enchantment.rpgenhanced.hearty.desc": "Each level grants +1 ♥ (2 HP) when worn on a chestplate."
 }

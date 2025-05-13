@@ -1,0 +1,41 @@
+{
+  "description": {
+    "translate": "enchantment.rpgenhanced.hearty"
+  },
+
+  "supported_items": "#forge:chestplates",
+
+  "weight": 5,
+
+  "max_level": 5,
+
+  "min_cost": {
+    "base": 5,
+    "per_level_above_first": 10
+  },
+  "max_cost": {
+    "base": 20,
+    "per_level_above_first": 10
+  },
+
+  "anvil_cost": 2,
+
+  "slots": [
+    "chest"
+  ],
+
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 4.0,
+          "per_level_above_first": 4.0
+        },
+        "attribute": "minecraft:generic.max_health",
+        "id": "rpgenhanced:hearty_health_bonus",
+        "operation": "add_value"
+      }
+    ]
+  }
+}
